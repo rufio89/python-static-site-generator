@@ -33,7 +33,7 @@ class Content(Mapping):
 
 
     def __getitem__(self, key):
-        return self.data["key"]
+        return self.data[key]
     
     def __iter__(self):
         self.data.__iter__()
